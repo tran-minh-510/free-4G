@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  cursor:context-menu;
+  @media (min-width: 992px) {
+    font-size: 16px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+
+@import "./base/variables";
+@import "./layouts//header";
+@import "./components/bodyContent";
+@import "./layouts//footer";
+
+.active-primary {
+  background-color: $bs-active-primary-bland;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: $bs-active-primary;
+  }
+}
+
+.active-danger {
+  background-color: $bs-active-danger-bland;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: $bs-active-danger;
+  }
+}
+
+.active-info {
+  background-color: $bs-active-info-bland;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: $bs-active-info;
+  }
+}
+
+.light-primary {
+  background-color: $bs-gray-100;
+  transition: all 0.3s ease;
+  &:hover{
+    background-color: $bs-gray-300;
+  }
+}

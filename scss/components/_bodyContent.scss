@@ -1,0 +1,8 @@
+#body-content {
+  background-color: $backGround-body-color;
+  margin-top: 8em;
+  padding: 1.8em 0 5.3em 0;
+  @import "./block";
+  @import "./recharge";
+  @import "./listUser";
+}

@@ -1,0 +1,46 @@
+.recharge {
+  position: relative;
+  height: 10em;
+  border-radius: 1em;
+  overflow: hidden;
+  margin: 1.5em 0 2em 0;
+  .recharge-background {
+    background-color: #1c325e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    img {
+      position: absolute;
+      width: 7.5em;
+      bottom: 0;
+      right: 0.8em;
+    }
+  }
+  .recharge-content {
+    position: absolute;
+    top: 1.7em;
+    left: 3em;
+    .recharge-content_text {
+      h3 {
+        font-size: 1.7em;
+        color: #fff;
+        font-weight: 600;
+        span {
+          color: $bs-active-danger-bland;
+        }
+      }
+    }
+    .recharge-content_btn {
+      margin-top: 1.5em;
+      button {
+        border: none;
+        padding: 0.8em 1.6em;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+    }
+  }
+}
